@@ -1,0 +1,25 @@
+db controller response codes
+in [] is a body content sent with response in text form
+in []? body is optional
+{} in [] is a placeholder
+no [] indicates nothing in body (or some stuff put by ASP)
+
+Errors{
+    501 in case of untracked error [error info] (server contiuos to work)
+    500 sent server went down due to uncatched error [error info writen by ASP]
+    409 internal database error [{SQLite error code}]?
+}
+
+Retrival (HTTP GET){
+    200 sucsesful get operations [{Requested entity in json format}]
+    404 desired entity not found
+}
+
+Creation (HTTP POST){
+    201 sucsesful operations of creating new entitys [{Created entity type}: {Created entity name}]
+    409 there already exists an entity with given name (duplicate entitys are not created)
+}
+Removal (HTTP DELETE){
+    200 all done [{Deleted type}: {Deleted name}]
+    404 desired entity not found
+}

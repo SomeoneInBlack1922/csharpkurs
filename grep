@@ -1,0 +1,5 @@
+Building...
+/home/cimax/uni/C-/kurs/kurs.csproj : warning NU1903: Package 'SixLabors.ImageSharp' 3.1.4 has a known high severity vulnerability, https://github.com/advisories/GHSA-63p8-c4ww-9cg7
+/home/cimax/uni/C-/kurs/kurs.csproj : warning NU1902: Package 'SixLabors.ImageSharp' 3.1.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-qxrv-gp6x-rc23
+/home/cimax/uni/C-/kurs/kurs.csproj : warning NU1903: Package 'SixLabors.ImageSharp' 3.1.4 has a known high severity vulnerability, https://github.com/advisories/GHSA-63p8-c4ww-9cg7
+/home/cimax/uni/C-/kurs/kurs.csproj : warning NU1902: Package 'SixLabors.ImageSharp' 3.1.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-qxrv-gp6x-rc23
